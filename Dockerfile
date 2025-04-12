@@ -16,6 +16,8 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*  
 # Copia o build da Etapa 1 para a pasta padrão do Nginx 
 COPY --from=builder /app/dist /usr/share/nginx/html 
+# Copa o nginx.config customizado
+COPY nginx.conf /etc/nginx/nginx.conf
 # Expondo a porta 80 (padrão do Nginx) 
 EXPOSE 80  
 # Comando de entrada do Nginx 
