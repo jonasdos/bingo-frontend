@@ -4,5 +4,3 @@ services:
     container_name: bingo-frontend
     ports:
       - "8080:80"
-    env_file:
-      - .env
