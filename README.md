@@ -2,7 +2,7 @@
 
 Este é o repositório do frontend do projeto **Bingo Driven**, uma aplicação desenvolvida em React e configurada com Vite. O objetivo é proporcionar uma interface simples e intuitiva para gerenciar jogos de bingo.
 
----
+## Confira o Backend do projeto: https://github.com/jonasdos/bingo-backend
 
 ## Deploy
 
